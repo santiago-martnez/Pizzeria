@@ -1,0 +1,228 @@
+:root{
+    --fuenteh1: 'Poor Story', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    padding: 1.2%;
+    /*background-color: #ffc013;*/
+
+   /* background-color: rgb(0 0 0 / 70%);*/
+}
+
+
+p{
+    color:black;
+}
+h1{
+    color: #f83821;
+    font-family: var(--fuenteh1);
+    font-weight: bold;
+}
+h2{
+    color: #f83821;
+    font-family: var(--fuenteh1);
+    font-size: 45px;
+}
+.desde{
+    font-size: 400%;
+}
+.textopizza{
+    color: #f83821;
+    font-weight: normal;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    
+}
+.nav1{
+    display: flex;
+    position: static;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1 img{
+    width: 10.5%;
+}
+.ul1 li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+.LBN{
+    color:#f83821;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+.LBN:hover{
+    color: white;
+}
+
+
+.inicioEntrada{
+    /*background-color: #ffc013;*/
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+}
+.ImagenPizzaComienzo img{
+    width: 100%;
+    border-radius: 2%;
+}
+.des{
+    width: 100%;    
+}
+.corrusel-item{
+    background-color: black;
+}
+.pi{
+    background-color: #f83821;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 6%;
+    padding: 1% 10% 0% 10%;
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu h3{
+    color: #ffc013;
+    text-align: center;
+    font-family: var(--fuenteh1);
+}
+.menu img:hover{
+   background-color:  #ffc013;
+    border-radius: 30%;
+}
+footer{
+    background-color: #f83821;
+    margin-left: 0%;
+    padding: 1%;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.mapa{
+    padding: 0% 2% 2% 2%;
+    /*background: #ffc013;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.efectoder{
+    width:100%;
+}
+
+h1 {
+    margin-top: 20px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.33% - 20px);
+    margin: 20px 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+.ne{
+      color: red;
+      margin: 0;
+      text-align: center;
+      padding-top: 2em;
+      margin-bottom: 10px;
+      font-size: 45px;
+  }
+  h2{
+    color: #f83821;
+    font-family: var(--fuenteh1);
+    font-size: 45px;
+}
+/* Estilos base para todos los dispositivos */
+@media screen and (max-width: 768px){
+    .nav1 img{
+        width: 14.5%;
+    }
+    .inicioEntrada{
+        display: flex;
+        flex-direction: column;
+    }
+    .ImagenPizzaComienzo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    .ImagenPizzaComienzo img{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 1em;
+    }
+    .inicioEntrada h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .inicioEntrada p{
+        font-size: 22px;
+        text-align: justify;
+    }
+    .pi{
+        grid-template-columns: 1fr 1fr;
+    }
+    .mapa iframe{
+        width: 70%;
+    }
+    .ne ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 60%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .ne ul li p{
+        font-size: 17.4px;
+    }
+
+}
